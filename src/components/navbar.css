@@ -1,0 +1,15 @@
+
+.nav-superior{
+    background:linear-gradient(to top,rgb(164, 255, 247),rgb(182, 240, 255),rgb(212, 253, 253),rgb(255, 255, 255))
+}
+.header-superior{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 109, 97);
+}
+.color-icon{
+    color: rgb(0, 109, 97);
+}
+
+.enlace-nav{
+    border-bottom: 2px solid rgba(134, 187, 228, 0.418);
+}

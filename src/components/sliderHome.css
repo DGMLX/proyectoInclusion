@@ -1,0 +1,57 @@
+.slider{
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 25rem;
+        animation: backgroundSlider infinite;
+        animation-duration:28s ;
+        width: 100%;
+        padding-top:3rem;
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 87%, 59% 100%, 41% 100%, 0 87%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 87%, 59% 100%, 41% 100%, 0 87%, 0 0);
+        
+}
+.enlace{
+    text-decoration: none;
+}
+.texto-section1{
+    animation: efectoOpacity;
+    animation-duration: 4s;
+    width: 100%;
+}
+
+@keyframes efectoOpacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes backgroundSlider{
+    0%,100%{
+        background-image: url(/img-slider1.jpg);
+        background-position:top;
+        background-size:cover;
+        height: 25rem;
+    }
+    25%{
+        background-image: url(/img-slider2.jpg);
+        background-position:top;
+        background-size: cover;
+        height: 25rem;
+    }
+    50%{
+        background-image:url(/img-slider3.jpg);
+        background-position:center;
+        background-size: cover;
+        height: 25rem;
+    }
+
+    75%{
+        background-image: url(/img-slider4.jpg);
+        background-position:top;
+        background-size: cover;
+        height: 25rem;
+    }
+}
